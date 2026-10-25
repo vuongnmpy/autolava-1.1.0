@@ -1,0 +1,15 @@
+LAVASELLER - BUILD TREN GITHUB (Minecraft 1.21.4, Fabric)
+Day la project DAY DU, khong can tao template Fabric nua.
+
+1. Tao repo moi tren https://github.com/new (ten lavaseller, Private).
+2. Giai nen file zip nay, mo PowerShell trong thu muc vua giai nen:
+     git init
+     git add .
+     git commit -m "lavaseller"
+     git branch -M main
+     git remote add origin https://github.com/TEN_BAN/lavaseller.git
+     git push -u origin main
+3. Tab Actions -> lan chay "build" moi nhat -> doi tick xanh -> Artifacts -> tai "lavaseller-jar".
+4. Bo lavaseller-1.0.0.jar vao thu muc mods cung fabric-api.
+
+Loi build: mo buoc "Build" va gui lai cac dong "error".

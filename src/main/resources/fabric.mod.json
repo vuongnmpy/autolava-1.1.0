@@ -1,0 +1,20 @@
+{
+	"schemaVersion": 1,
+	"id": "lavaseller",
+	"version": "${version}",
+	"name": "LavaSeller",
+	"description": "Tu muc lava, ban tren /ah, lay xo rong tu /order.",
+	"authors": ["tenban"],
+	"license": "All-Rights-Reserved",
+	"icon": "assets/lavaseller/icon.png",
+	"environment": "client",
+	"entrypoints": {
+		"client": ["com.tenban.lavaseller.client.LavasellerClient"]
+	},
+	"depends": {
+		"fabricloader": ">=0.20.1",
+		"minecraft": "~1.21.4",
+		"java": ">=21",
+		"fabric-api": "*"
+	}
+}
